@@ -5,12 +5,12 @@
 }
 
 .input-label {
-    font-weight: bold;
-    margin-right: 1rem;
+    font-weight: bolder;
+    margin-right: 4rem;
 }
 
 .input input {
-    width: 3rem;
+    width: 2rem;
     border-radius: 5px;
     border: 1px solid #ccc;
     font: inherit;
