@@ -1,10 +1,13 @@
 .cart-item {
-    border-bottom: 2px solid #8a2b06;
+
 }
 
 .summary{
 justify-content: space-between;
 margin: 5px 5px;
+padding-bottom: 12px;
+border-bottom: 2px solid #8a2b06;
+
 }
 
 .price {
@@ -14,14 +17,15 @@ margin: 5px 5px;
 }
 
 .amount {
+    font-size: x-small;
     font-weight: bold;
     margin-left: 2rem;
     border: 2px solid#be9e8e;
     border-radius: 5px;
-    padding: 2px 7px;
+    padding: 1px 7px;
 }
 
-.action button {
+.action {
     float: right;
     border-radius: 5px;
     background: white;
@@ -33,7 +37,7 @@ margin: 5px 5px;
     color: #8a2b06;
 }
 
-.action button:hover{
+.action:hover{
     background: #8a2b06;
     color: white;
 }
