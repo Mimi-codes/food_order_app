@@ -35,8 +35,8 @@ const cartItems = (
     <Modal onClose = {props.onClose}>
         {cartItems}
         <div className={classes.total}>
-            <span>Total Amount</span>
-            <span>{totalAmount}</span>
+            <span className={classes['total-amount-1']}>Total Amount</span>
+            <span className={classes['total-amount']}>{totalAmount}</span>
         </div>
         <div className={classes.actions}>
         <button className={classes['button--alt']} onClick ={props.onClose}>Close</button>
