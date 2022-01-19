@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     max-height: 20rem;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
   };
 
 .total {
@@ -15,8 +16,18 @@
     margin: 1rem 0;
 }
 
+.total-amount {
+    float: right;
+    font-weight: bold;
+}
+
+.total-amount-1 {
+    font-weight: bold;
+}
+
 .actions {
     text-align: right;
+    margin-top: 3px;
 }
 
 .button--alt {
@@ -41,4 +52,10 @@ margin-left: 10px;
 
 .button--alt:hover {
     background: #5f240d;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
 }
