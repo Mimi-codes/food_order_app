@@ -1,0 +1,41 @@
+.cart-item {
+    border-bottom: 2px solid #8a2b06;
+}
+
+.summary{
+justify-content: space-between;
+margin: 5px 5px;
+}
+
+.price {
+    color: #8a2b06;
+    font-weight: bold;
+
+}
+
+.amount {
+    font-weight: bold;
+    margin-left: 2rem;
+    border: 2px solid#be9e8e;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+
+.action button {
+    float: right;
+    border-radius: 5px;
+    background: white;
+    border-color: #9c7160;
+    justify-content: space-around;
+    padding: 2px 15px;
+    font-weight: bolder;
+    margin-left: 6px;
+    color: #8a2b06;
+}
+
+.action button:hover{
+    background: #8a2b06;
+    color: white;
+}
+
+
