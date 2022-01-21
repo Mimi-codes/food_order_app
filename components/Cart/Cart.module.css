@@ -32,29 +32,29 @@
 
 .button--alt {
     border-radius: 40rem;
+    background: #5f240d;
     border-color: #8a2b06;
-    color: #8a2b06;
-    background: white;
-    padding: 8px;
+    color: white;
+    padding: 10px;
     width: 90px;
 
 }
 
-.button{
-border-radius: 40rem;
-background: #5f240d;
-color: white;
-border-style: none;
-padding: 8px;
-width: 90px;
-margin-left: 10px;
-}
-
-.button--alt:hover {
+.button-order{
+    border-radius: 40rem;
     background: #5f240d;
+    border-color: #8a2b06;
     color: white;
+    padding: 10px;
+    width: 90px;
+    margin-left: 10px;
 }
 
+.button-order:hover,
+.button--alt:hover {
+    background: white;
+    color: #5f240d;
+}
 
 ::-webkit-scrollbar {
     width: 0;
