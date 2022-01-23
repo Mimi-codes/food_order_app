@@ -28,3 +28,10 @@
         transform: translateY(3rem);
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .meals {
+        max-width: 50rem;
+        width: 80%;
+}
+}

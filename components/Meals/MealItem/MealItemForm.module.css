@@ -17,3 +17,9 @@ font-weight: bold;
 .form button:active {
 background: #641e03;
 }
+
+@media only screen and (max-width:480px) {
+    .form button  {
+        padding: 0.25rem 1.5rem;
+    }
+}

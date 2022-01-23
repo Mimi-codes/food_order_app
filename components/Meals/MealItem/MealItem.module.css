@@ -19,3 +19,8 @@ font-style: italic;
     color:  #c74f20;
     font-weight: bold;
 }
+
+@media only screen and (max-width:480px) {
+    .description {
+    }
+}
